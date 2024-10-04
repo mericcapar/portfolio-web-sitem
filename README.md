@@ -1,4 +1,4 @@
-# Portfolio Web Site
+# Meriç ÇAPAR Portfolio Web Site
 
 This is my personal portfolio website created using React. The site showcases my skills, experience, and projects as a computer engineering student.
 
