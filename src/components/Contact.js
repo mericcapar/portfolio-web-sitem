@@ -15,13 +15,13 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(`Teşekkürler ${formData.name}, mesajınız alındı!`);
+    alert(`Thank you ${formData.name}, your message sended!`);
   };
 
   return (
     <div id="contact">
       <div className="container">
-        <h1 className="sub-title">Benimle İletişime Geçin</h1>
+        <h1 className="sub-title">Contact Me!</h1>
         <div className="row">
           <div className="contact-left">
             <p><i className="fas fa-paper-plane"></i> mericcaparrr@gmail.com</p>
@@ -34,10 +34,10 @@ function Contact() {
           </div>
           <div className="contact-right">
             <form onSubmit={handleSubmit}>
-              <input type="text" name="name" placeholder="İsim" required value={formData.name} onChange={handleChange} />
+              <input type="text" name="name" placeholder="Name" required value={formData.name} onChange={handleChange} />
               <input type="email" name="email" placeholder="E-mail" required value={formData.email} onChange={handleChange} />
-              <input type="text" name="konu" placeholder="Konu" required value={formData.konu} onChange={handleChange} />
-              <textarea name="mesaj" rows="5" placeholder="Mesaj" value={formData.mesaj} onChange={handleChange}></textarea>
+              <input type="text" name="konu" placeholder="Subject" required value={formData.konu} onChange={handleChange} />
+              <textarea name="mesaj" rows="5" placeholder="Message" value={formData.mesaj} onChange={handleChange}></textarea>
               <button type="submit" className="btn btn1">Submit</button>
             </form>
           </div>

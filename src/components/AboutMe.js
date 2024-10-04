@@ -11,10 +11,16 @@ function AboutMe() {
           <img src={vesikaImage} alt="Vesika Fotoğrafı" />
           </div>
           <div className="about-col-2">
-            <h1 className="sub-title">Ben kimim?</h1>
+            <h1 className="sub-title">About Me</h1>
             <p>
-            Ben, dördüncü sınıf bir Bilgisayar Mühendisliği öğrencisi Meriç. Hızla değişen bir ortamda, karmaşık girişimlerde, farklı disiplinlerden ekiplerle çalışma deneyimim sayesinde liderlik ve takım çalışması becerilerimin iyi olduğunu düşünüyorum. 
-            Makine öğrenimi ve yapay zekaya ilgim var ve bu alanda uzmanlaşmayı hedefliyorum. Makine öğrenimi ve yapay zekaya olan tutkum, kendimi sürekli geliştirmemi ve önüme çıkan her fırsatı değerlendirmemi sağlıyor. Ayrıca SunExpress ve TÜBİTAK stajlarım, ABAP üzerinde çalışarak programlama, SQL ve clean kod becerilerimi önemli ölçüde geliştirdi. Bu deneyimler, teknik temellerimi daha da güçlendirdi.
+            I am a forth year Computer Engineering student with various volunteer experiences in different NGOs. I had a
+            chance to develop my leadership and teamwork skills through experience working on complex initiatives with
+            cross-functional teams in a very fast-moving environment. I'm deeply passionate about machine learning and
+            artificial intelligence, and I aspire to specialize in this field. My enthusiasm for machine learning and artificial
+            intelligence drives me to continually develop myself and seize every opportunity that comes my way. I am
+            committed to becoming an expert in this field and contributing meaningfully to its advancement. SunExpress and
+            TÜBİTAK internships, where I worked on ABAP, significantly enhanced my programming, SQL, and clean code
+            skills. These experiences have further strengthened my technical foundation.
             </p>
           </div>
         </div>

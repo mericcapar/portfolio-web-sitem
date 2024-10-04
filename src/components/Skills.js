@@ -11,7 +11,7 @@ function Skills() {
   return (
     <div id="skills">
       <div className="container">
-        <h1 className="sub-title">Yeteneklerim</h1>
+        <h1 className="sub-title">Skills</h1>
         <div className="tab-titles">
           <p 
             className={`tab-links ${activeTab === 'skills' ? 'active-link' : ''}`} 
@@ -60,7 +60,7 @@ function Skills() {
           {activeTab === 'education' && (
             <div className="tab-content active-tab" id="education-content">
               <ul>
-                <li><span>2020-2025</span><br />SDU - Bilgisayar Müh.</li>
+                <li><span>2020-2025</span><br />SDU - Computer Engineering</li>
                 <li><span>08.2024</span><br />DataAI Team - Python OpenCV ile Görüntü İşleme (Gİ-1)</li>
                 <li><span>02.2024</span><br />Istanbul Data Science Academy - Data Analyst V2 Boostcamp</li>
               </ul>

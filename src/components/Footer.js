@@ -4,13 +4,13 @@ import './Footer.css';
 function Footer() {
   return (
     <footer className="footer">
-      <p>Sitemin sonuna da sevdiğim bir şarkıyı eklemek istedim. Ziyaret ettiğiniz için teşekkürler!</p>
+      <p>Finally, I want to add one of my favorite songs. Thank you for visiting!</p>
       <div className="video-container">
         <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/x4LmWbxPBkE?autoplay=1&mute=1&controls=1" 
-          title="Sevdiğim Şarkı"
+          title="Favorite song"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>

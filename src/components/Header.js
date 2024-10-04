@@ -35,14 +35,14 @@ function Header() {
 
           <ul style={{ display: 'flex', marginLeft: '20px' }}>
             <li><a href="#header">Home</a></li>
-            <li><a href="#about">Hakkımda</a></li>
-            <li><a href="#skills">Beceriler</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
         <div className="header-text">
           <p>Junior Developer</p>
-          <h1>Merhaba, Ben Meriç</h1>
+          <h1>Hi, I'm Meriç</h1>
         </div>
       </div>
     </header>
